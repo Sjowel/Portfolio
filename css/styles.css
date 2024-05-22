@@ -16,6 +16,7 @@ body {
 
 header {
     position: fixed;
+    font-size: 1.2em;
     top: 0;
     left: 0;
     width: 100%;
@@ -25,15 +26,6 @@ header {
     align-items: center;
     z-index: 10000;
     background: rgba(92, 54, 117, 0.5);
-}
-
-header .logo {
-    color: #fff;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 2em;
-    letter-spacing: 2px;
-    text-shadow: 0 0 25px #706FCE;
 }
 
 header ul {
@@ -61,6 +53,12 @@ transition: 0.3s ease-in-out;
 box-shadow: 0 0 25px #706FCE;
 }
 
+.logo img {
+    width: 55px;
+    height: auto;
+    display: block;
+    
+}
 section {
     position: relative;
     width: 100%;
