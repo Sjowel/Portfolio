@@ -22,7 +22,7 @@ header {
     width: 100%;
     padding: 10px 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content : space-between;
     align-items: center;
     z-index: 10000;
     background: rgba(92, 54, 117, 0.5);
